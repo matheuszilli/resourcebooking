@@ -28,6 +28,7 @@ public class Booking {
 
     private LocalDateTime endTime;
 
+    @Enumerated(EnumType.STRING)
     private BookingStatus status;
 
     private String reason;
